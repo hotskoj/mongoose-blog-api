@@ -1,0 +1,22 @@
+{
+  "name": "mongoose-blog-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon server/index.js",
+    "test": "mocha test/**/*.spec.js --exit",
+    "submit": "mocha test/submission.spec.js"
+  },
+  "author": "Jessica Hotsko",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "chai": "^5.1.2",
+    "chai-http": "^5.1.1",
+    "express": "^4.21.1",
+    "mocha": "^10.7.3",
+    "mongoose": "^8.7.3"
+  }
+}
