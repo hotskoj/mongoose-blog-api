@@ -22,7 +22,7 @@ Follow these steps to get your local development environment set up:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/hotskoj/blog-api.git
+   git clone https://github.com/hotskoj/mongoose-blog-api.git
    ```
 
 2. Navigate to the project directory:
